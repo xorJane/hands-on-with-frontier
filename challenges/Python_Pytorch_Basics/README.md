@@ -342,7 +342,7 @@ All of that is assigned to a variable called `transform`, which we will use in t
 
 > Note: We won't go into the mathematics, but the mean and standard deviation used result in a normalized range of [-1,1]. This is done for each color channel of the image via the "z-score" or ["standard score"](https://en.wikipedia.org/wiki/Standard_score) method.
 
-Now that we have the transformation defined and contained in a variable, now we can move on to actually loading in the data.
+Now that we have the transformation defined and contained in a variable, we can move on to actually loading in the data.
 
 ### 2.5 <a name="load"></a>Loading Data
 
