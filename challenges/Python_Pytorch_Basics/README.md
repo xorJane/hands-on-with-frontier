@@ -657,7 +657,7 @@ To try and optimize the results for the next step, the `loss` results are then p
 This is done by first using the previously defined `optimizer` to zero-out its gradients (to prevent double counting), explicitly back-propagate the error with `loss.backward()` and finally tell the network to adjust its parameters based on that back-propagation with `optimizer.step()`.
 
 This completes a *single* step in the training loop.
-After *all* the steps of the training loop are completed with the **training data**, the network should be ready to be given **test data** to try and see how well it performs -- this is done in the "testing loop"
+After *all* the steps of the training loop are completed with the **training data**, the network should be ready to be given **test data** to try and see how well it performs -- this is done in the "testing loop".
 
 ### 4.2 <a name="test-loop"></a>Testing Loop
 
